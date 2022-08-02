@@ -38,6 +38,27 @@ $('#myChat').on('submit', e => {
     socket.emit("new-message", message);
 });
 
+socket.on('envioProds', (data) => {
+    const prods = data;
+    let html = '';
+    const detalle = document.getElementById('tablaProds')
+    if (detalle != null) {
+        prods.map( p => 
+            html +=`
+                <tr>
+                    <td class="nombreProd"><input type="text" id="title${p.id}" value="${p.title}"></td>
+                    <td class="prProd"><input type="number" id="price${p.id}" value="${p.price}"></td>
+                    <td><img alt="Foto" style="width: 100px;" src=${p.thumbnail}><span id="foto${p.id}" style="display: none;">${p.thumbnail}</span></td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" onclick="modificarProd(${p.id})"><i class="bi bi-pencil-square"></i> Modificar</button>
+                        <button class="btn btn-sm btn-danger" onclick="eliminarProd(${p.id})"><i class="bi bi-trash3"></i> Eliminar</button>
+                    </td>
+                </tr>
+            `
+        );            
+        detalle.innerHTML = html;
+    }
+});
 
 // Carga los datos por primera vez
 function loadFirstData() {

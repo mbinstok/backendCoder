@@ -73,4 +73,12 @@ io.on("connection", (socket) => {
         db.save(data);
         console.log(data);
     });
+
+    // Envía productos por websocket
+    socket.on("pedirProds", () => {
+        const productos = new Productos(`productos.json`);
+        productos.getAll((prods) => {
+            this.io.sockets.emit("envioProds", prods);
+        });
+    });
 });
