@@ -1,0 +1,173 @@
+{
+    "entities": {
+        "author": {
+            "s@m": {
+                "id": "s@m",
+                "name": "pope",
+                "lastname": "salas",
+                "age": "32",
+                "alias": "ss",
+                "avatar": "https://norfipc.com/img/facebook/avatars/05.png"
+            },
+            "k@m": {
+                "id": "k@m",
+                "name": "Ale",
+                "lastname": "Perez",
+                "age": "42",
+                "alias": "Ale",
+                "avatar": "https://norfipc.com/img/facebook/avatars/09.png"
+            },
+            "j@u": {
+                "id": "j@u",
+                "name": "Juan",
+                "lastname": "Lastra",
+                "age": "77",
+                "alias": "jub",
+                "avatar": "http://127.0.0.1:8080/"
+            },
+            "a@u": {
+                "id": "a@u",
+                "name": "Alejandro",
+                "lastname": "Ramirez",
+                "age": "66",
+                "alias": "Ale",
+                "avatar": "https://norfipc.com/img/facebook/avatars/09.png"
+            },
+            "juancho@test.com": {
+                "id": "juancho@test.com",
+                "name": "Pepito",
+                "lastname": "Perez",
+                "age": "52",
+                "alias": "pepito",
+                "avatar": "https://norfipc.com/img/facebook/avatars/04.png"
+            },
+            "josefinaesna@gmail.com": {
+                "id": "jose@gmail.com",
+                "name": "Josefina",
+                "lastname": "Esnaola",
+                "age": "41",
+                "alias": "j.esna",
+                "avatar": "estosesunURL.com"
+            },
+            "ewerew@wqeqw.com": {
+                "id": "ewerew@wqeqw.com",
+                "name": "Maria",
+                "lastname": "Borbore",
+                "age": "39",
+                "alias": "ahora_si",
+                "avatar": "estosesunURL.com"
+            },
+            "mail@gmail.com": {
+                "id": "mail@gmail.com",
+                "name": "Sofía",
+                "lastname": "Gonzalez",
+                "age": "27",
+                "alias": "sof.gonz",
+                "avatar": "url.com"
+            }
+        },
+        "messages": {
+            "1": {
+                "author": "s@m",
+                "text": "Prueba 1",
+                "time": "1/09/2022, 22:41:43",
+                "id": 1
+            },
+            "2": {
+                "author": "s@m",
+                "text": "Otra Prueba",
+                "time": "1/09/2022, 22:41:43",
+                "id": 2
+            },
+            "3": {
+                "author": "k@m",
+                "text": "Algo",
+                "time": "1/09/2022, 22:50:01",
+                "id": 3
+            },
+            "4": {
+                "author": "k@m",
+                "text": "Donde estas?",
+                "time": "1/09/2022, 22:51:10",
+                "id": 4
+            },
+            "5": {
+                "author": "s@m",
+                "text": "Teste",
+                "time": "1/09/2022, 22:41:43",
+                "id": 5
+            },
+            "6": {
+                "author": "s@m",
+                "text": "Teste",
+                "time": "1/09/2022, 22:41:43",
+                "id": 6
+            },
+            "7": {
+                "author": "k@m",
+                "text": "Que fueeeee",
+                "time": "1/09/2022, 22:50:01",
+                "id": 7
+            },
+            "8": {
+                "author": "k@m",
+                "text": "Donde estas?",
+                "time": "1/09/2022, 22:51:10",
+                "id": 8
+            },
+            "9": {
+                "author": "s@m",
+                "text": "Holis",
+                "time": "1/09/2022, 22:54:19",
+                "id": 9
+            },
+            "10": {
+                "author": "k@m",
+                "text": "Que mas mi gente?",
+                "time": "1/09/2022, 23:01:55",
+                "id": 10
+            },
+            "11": {
+                "author": "s@m",
+                "text": "teste",
+                "time": "1/09/2022, 23:03:20",
+                "id": 11
+            },
+            "12": {
+                "author": "s@m",
+                "text": "12",
+                "time": "1/09/2022, 23:05:30",
+                "id": 12
+            },
+            "13": {
+                "author": "k@m",
+                "text": "122",
+                "time": "1/09/2022, 23:06:32",
+                "id": 13
+            },
+            "14": {
+                "author": "j@u",
+                "text": "ddd",
+                "time": "1/09/2022, 23:07:30",
+                "id": 14
+            }
+        
+        }
+    },
+    "result": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+    ]
+}
