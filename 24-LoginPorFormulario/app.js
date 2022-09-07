@@ -1,3 +1,8 @@
+// Curso Backend Coderhouse
+// Comisión 31015
+// Alumno: Miguel Binstok
+// Login por Formulario
+
 const express = require("express");
 const session = require("express-session");
 const expbs = require("express-handlebars");
